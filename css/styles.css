@@ -20,6 +20,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 0px;
 }
 .banner-title {
   color: #fff;
@@ -112,6 +113,9 @@ body {
 
   font-weight: 700;
 }
+.btn:hover{
+    background-color: blueviolet;
+}
 .midnight-img {
   width: 319.83px;
   height: 464.662px;
@@ -142,20 +146,27 @@ body {
         margin-top: 5px;
         font-weight: 700;
 }
+.schedule-btn:hover{
+background-color: blueviolet;
+}
 
 .offer-content{
     display: flex;
-    width: 95%;
+    width: 100%;
     margin: 0px auto;
 }
+.offer-detail{
+    margin:30px 6px;
+}
 .offer-intro{
-    color: #F00;
+    color: green;
         margin-right: 280px;
         text-align: center;
         font-family: Inter;
-        font-size: 24px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 500;
+        margin-bottom: 0px;
 }
 .offer-deadline{
     color: #070211;
@@ -164,7 +175,8 @@ body {
         font-size: 48px;
         font-style: normal;
         font-weight: 900;
-        line-height: normal;
+        margin: 10px 0px;
+        
 }
 .offer-description{
     color: rgba(7, 2, 17, 0.60);
@@ -173,23 +185,25 @@ body {
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
+        margin-top: 10px;
 }
 
 .img-circle{
     border: 10px solid blueviolet;
-    width: 400px;
+    width: 500px;
     border-radius: 50%;
 }
 
 .offer-img{
-    width: 300px;
+    width: 450px;
     
 }
 .year-detail{
     margin: 0px 30px;
+   
 }
 .year{
-    color: #F00;
+    color: green;
     
         font-family: Inter;
         font-size: 48px;
@@ -204,6 +218,11 @@ body {
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
+        margin-bottom: 0px;
+}
+.year-img {
+    width: 140px;
+    margin-left: 50px;
 }
 
 .discount-details{
